@@ -1,5 +1,5 @@
 /* Higher Self PWA - service worker de development */
-const CACHE='hs-v1';
+const CACHE='hs-v2';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 self.addEventListener('install', function(e){
   self.skipWaiting();
@@ -26,6 +26,7 @@ self.addEventListener('fetch', function(e){
     );
     return;
   }
+  if(/\.(mp3|m4a|ogg|wav)(\?|$)/i.test(url.pathname)) return;   /* audio: doar descarcare explicita */
   e.respondWith(caches.match(req).then(function(hit){
     return hit || fetch(req).then(function(r){
       const copy=r.clone();
