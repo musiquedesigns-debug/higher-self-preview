@@ -1,5 +1,5 @@
 /* Higher Self PWA - service worker de development */
-const CACHE='hs-v2';
+const CACHE='hs-v3';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 self.addEventListener('install', function(e){
   self.skipWaiting();
@@ -27,6 +27,7 @@ self.addEventListener('fetch', function(e){
     return;
   }
   if(/\.(mp3|m4a|ogg|wav)(\?|$)/i.test(url.pathname)) return;   /* audio: doar descarcare explicita */
+  if(/\.json(\?|$)/i.test(url.pathname)) return;                  /* liste de piese: mereu proaspete */
   e.respondWith(caches.match(req).then(function(hit){
     return hit || fetch(req).then(function(r){
       const copy=r.clone();
