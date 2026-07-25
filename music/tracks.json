@@ -1,1 +1,16 @@
-
+[
+  {
+    "id": "morning-affirmation",
+    "cat": "morning",
+    "file": "./music/2.Higherself-morning-affirmation.mp3",
+    "t": { "en": "Morning Affirmation", "ro": "Afirmație de dimineață" },
+    "note": { "en": "start the day aligned", "ro": "începe ziua aliniat" }
+  },
+  {
+    "id": "body-scan",
+    "cat": "meditation",
+    "file": "./music/1.Higherself-body-scan.mp3",
+    "t": { "en": "Body Scan", "ro": "Scanare corporală" },
+    "note": { "en": "settle into the body", "ro": "așază-te în corp" }
+  }
+]
