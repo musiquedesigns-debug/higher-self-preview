@@ -4,15 +4,153 @@
     "cat": "morning",
     "file": "./music/2.Higherself-morning-affirmation.mp3",
     "cover": "./music/cover-morning-affirmation.jpg",
-    "t": { "en": "Morning Affirmation", "ro": "Afirmație de dimineață" },
-    "note": { "en": "start the day aligned", "ro": "începe ziua aliniat" }
+    "t": {
+      "en": "Morning Affirmation",
+      "ro": "Afirmație de dimineață"
+    },
+    "note": {
+      "en": "start the day aligned",
+      "ro": "începe ziua aliniat"
+    }
+  },
+  {
+    "id": "inner-sunrise",
+    "cat": "morning",
+    "file": "./music/7.Higher%20Self%20-%20Inner%20Sunrise%20%28Energy%20%26%20Motivation%29.mp3",
+    "cover": "./music/cover-inner-sunrise.jpg",
+    "t": {
+      "en": "Inner Sunrise",
+      "ro": "Răsărit interior"
+    },
+    "note": {
+      "en": "energy and motivation",
+      "ro": "energie și avânt"
+    }
+  },
+  {
+    "id": "space-within",
+    "cat": "evening",
+    "file": "./music/11.Higher%20Self%20-%20The%20Space%20Within%20%28Introspection%29.mp3",
+    "cover": "./music/cover-space-within.jpg",
+    "t": {
+      "en": "The Space Within",
+      "ro": "Spațiul dinăuntru"
+    },
+    "note": {
+      "en": "for looking inward",
+      "ro": "pentru privit înăuntru"
+    }
+  },
+  {
+    "id": "clear-mind",
+    "cat": "focus",
+    "file": "./music/4.Higher%20Self%20-%20Clear%20Mind%20Flow%20%28Clarity%20%26%20Focus%29.mp3",
+    "cover": "./music/cover-clear-mind.jpg",
+    "t": {
+      "en": "Clear Mind Flow",
+      "ro": "Minte limpede"
+    },
+    "note": {
+      "en": "clarity and focus",
+      "ro": "claritate și concentrare"
+    }
+  },
+  {
+    "id": "drift-stars",
+    "cat": "sleep",
+    "file": "./music/5.Higher%20Self%20-%20Drift%20Beyond%20the%20Stars%20%28Sleep%29.mp3",
+    "cover": "./music/cover-drift-stars.jpg",
+    "t": {
+      "en": "Drift Beyond the Stars",
+      "ro": "Dincolo de stele"
+    },
+    "note": {
+      "en": "for falling asleep",
+      "ro": "pentru adormit"
+    }
   },
   {
     "id": "body-scan",
     "cat": "meditation",
     "file": "./music/1.Higherself-body-scan.mp3",
     "cover": "./music/cover-body-scan.jpg",
-    "t": { "en": "Body Scan", "ro": "Scanare corporală" },
-    "note": { "en": "settle into the body", "ro": "așază-te în corp" }
+    "t": {
+      "en": "Body Scan",
+      "ro": "Scanare corporală"
+    },
+    "note": {
+      "en": "settle into the body",
+      "ro": "așază-te în corp"
+    }
+  },
+  {
+    "id": "meditation-relax",
+    "cat": "meditation",
+    "file": "./music/3.Higherself-meditation-music-relax.mp3",
+    "cover": "./music/cover-meditation-relax.jpg",
+    "t": {
+      "en": "Still Water",
+      "ro": "Apă liniștită"
+    },
+    "note": {
+      "en": "music only, no words",
+      "ro": "doar muzică, fără cuvinte"
+    }
+  },
+  {
+    "id": "stillness",
+    "cat": "meditation",
+    "file": "./music/8.Higher%20Self%20-%20Return%20to%20Stillness%20%28Calm%29.mp3",
+    "cover": "./music/cover-stillness.jpg",
+    "t": {
+      "en": "Return to Stillness",
+      "ro": "Întoarcere în liniște"
+    },
+    "note": {
+      "en": "when everything is loud",
+      "ro": "când totul e zgomotos"
+    }
+  },
+  {
+    "id": "healing-within",
+    "cat": "healing",
+    "file": "./music/6.Higher%20Self%20-%20Healing%20From%20Within%20%28Body%20%26%20Health%29.mp3",
+    "cover": "./music/cover-healing-within.jpg",
+    "t": {
+      "en": "Healing From Within",
+      "ro": "Vindecare dinăuntru"
+    },
+    "note": {
+      "en": "for body and health",
+      "ro": "pentru corp și sănătate"
+    }
+  },
+  {
+    "id": "seven-lights",
+    "cat": "healing",
+    "file": "./music/9.Higher%20Self%20-%20Seven%20Lights%20%28Full%20Chakra%20Balance%29.mp3",
+    "cover": "./music/cover-seven-lights.jpg",
+    "t": {
+      "en": "Seven Lights",
+      "ro": "Șapte lumini"
+    },
+    "note": {
+      "en": "full chakra balance",
+      "ro": "echilibrul celor șapte chakre"
+    }
+  },
+  {
+    "id": "letting-go",
+    "cat": "healing",
+    "file": "./music/10.Higher%20Self%20-%20Softly%20Letting%20Go%20%28Emotional%20Healing%29.mp3",
+    "cover": "./music/cover-letting-go.jpg",
+    "t": {
+      "en": "Softly Letting Go",
+      "ro": "Las ușor să plece"
+    },
+    "note": {
+      "en": "emotional healing",
+      "ro": "vindecare emoțională"
+    }
   }
 ]
