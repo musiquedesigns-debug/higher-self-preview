@@ -152,5 +152,19 @@
       "en": "emotional healing",
       "ro": "vindecare emoțională"
     }
+  },
+  {
+    "id": "release-energy",
+    "cat": "healing",
+    "file": "./music/Higher%20Self%20-%20Release%20Energy%20%28Female%20Voice%29.MP3",
+    "cover": "./music/cover-release-energy.webp",
+    "t": {
+      "en": "Release Energy",
+      "ro": "Eliberează energia"
+    },
+    "note": {
+      "en": "let it move through you",
+      "ro": "las-o să treacă prin tine"
+    }
   }
 ]
