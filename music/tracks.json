@@ -154,13 +154,27 @@
     }
   },
   {
-    "id": "release-energy",
+    "id": "release-energy-female",
     "cat": "healing",
     "file": "./music/Higher%20Self%20-%20Release%20Energy%20%28Female%20Voice%29.MP3",
     "cover": "./music/cover-release-energy.webp",
     "t": {
-      "en": "Release Energy",
-      "ro": "Eliberează energia"
+      "en": "Release Energy (Female Voice)",
+      "ro": "Eliberează energia (voce feminină)"
+    },
+    "note": {
+      "en": "let it move through you",
+      "ro": "las-o să treacă prin tine"
+    }
+  },
+  {
+    "id": "release-energy-male",
+    "cat": "healing",
+    "file": "./music/Higher%20Self%20-%20Release%20Energy%20%28Male%20Voice%29.MP3",
+    "cover": "./music/cover-release-energy-male.webp",
+    "t": {
+      "en": "Release Energy (Male Voice)",
+      "ro": "Eliberează energia (voce masculină)"
     },
     "note": {
       "en": "let it move through you",
