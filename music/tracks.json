@@ -72,7 +72,7 @@
   {
     "id": "body-scan",
     "cat": "meditation",
-    "file": "./music/1.Higherself-body-scan.mp3",
+    "file": "./music/1.Highserself-body-scan.mp3",
     "cover": "./music/cover-body-scan.jpg",
     "t": {
       "en": "Body Scan",
@@ -170,7 +170,7 @@
   {
     "id": "release-energy-male",
     "cat": "healing",
-    "file": "./music/Higher%20Self%20-%20Release%20Energy%20%28Male%20Voice%29.MP3",
+    "file": "./music/Higher%20Self%20-%20Release%20Energy%20%28Male%20Version%29.MP3",
     "cover": "./music/cover-release-energy-male.webp",
     "t": {
       "en": "Release Energy (Male Voice)",
