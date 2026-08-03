@@ -1,5 +1,5 @@
 /* Higher Self PWA - service worker de development */
-const CACHE='hs-v3';
+const CACHE='hs-v4';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 self.addEventListener('install', function(e){
   self.skipWaiting();
@@ -19,8 +19,7 @@ self.addEventListener('fetch', function(e){
   if(isDoc){
     e.respondWith(
       fetch(req).then(function(r){
-        const copy=r.clone();
-        caches.open(CACHE).then(function(c){ c.put('./index.html', copy); });
+        if(r.ok){ const copy=r.clone(); caches.open(CACHE).then(function(c){ c.put('./index.html', copy); }); }
         return r;
       }).catch(function(){ return caches.match('./index.html'); })
     );
@@ -30,8 +29,7 @@ self.addEventListener('fetch', function(e){
   if(/\.json(\?|$)/i.test(url.pathname)) return;                  /* liste de piese: mereu proaspete */
   e.respondWith(caches.match(req).then(function(hit){
     return hit || fetch(req).then(function(r){
-      const copy=r.clone();
-      caches.open(CACHE).then(function(c){ c.put(req, copy); });
+      if(r.ok){ const copy=r.clone(); caches.open(CACHE).then(function(c){ c.put(req, copy); }); }
       return r;
     });
   }));
